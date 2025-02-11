@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 140rem;
+  --breakpoint-5xl: 160rem;
+  --breakpoint-6xl: 180rem;
+}
+
+:root {
+  font-family: Outfit, Poppins, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  background-image: url("/media/background.webp");
+  background-repeat: repeat;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #242424;
+  background-color: #57d8ff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  border-top-right-radius: 20px;
+}
+button:hover {
+  background-color: #242424;
+  color: #57d8ff;
+  transition: 0.5s ease-in-out;
+}
+button:active {
+  transform: scale(0.98);
+}
