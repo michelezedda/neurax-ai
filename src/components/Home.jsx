@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Features />
-      <Pricing />
+      <div className="mx-10">
+        <Hero />
+        <Features />
+        <Pricing />
+      </div>
       <Footer />
     </>
   );

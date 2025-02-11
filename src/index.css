@@ -39,14 +39,14 @@ button {
   font-weight: 500;
   font-family: inherit;
   color: #242424;
-  background-color: #57d8ff;
+  background-color: #5ccff0;
   cursor: pointer;
   transition: 0.5s ease-in-out;
   border-top-right-radius: 20px;
 }
 button:hover {
   background-color: #242424;
-  color: #57d8ff;
+  color: #5ccff0;
   transition: 0.5s ease-in-out;
 }
 button:active {

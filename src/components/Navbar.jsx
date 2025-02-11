@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { RiMenu5Line } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
-import { LuBrainCircuit } from "react-icons/lu";
+import logoImg from "/media/logo.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <nav className="fixed py-3 w-[100%] bg-black z-50">
         <div className="flex items-center gap-2 pl-6">
-          <LuBrainCircuit className="text-4xl text-cyan-400" />
+          <img src={logoImg} alt="logo" className="size-10" />
           <Link to="/">
             <span className="text-3xl">NeuraX AI</span>
           </Link>

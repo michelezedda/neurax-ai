@@ -1,4 +1,5 @@
 import heroImg from "/media/robot.jpg";
+import curveLine from "/media/curve-line.webp";
 import { Riple } from "react-loading-indicators";
 
 export default function Hero() {
@@ -6,10 +7,10 @@ export default function Hero() {
     <>
       <div className="flex flex-col pt-30 h-[100dvh] ">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-white text-2xl text-center text-4xl mx-4">
+          <h1 className="text-white text-2xl text-center text-4xl">
             Explore the possibilities of AI Chatting with <span>NeuraX</span>{" "}
           </h1>
-          {/* <hr className="flex absolute top-20 left-20" /> */}
+          <img src={curveLine} alt="" />
           <p className="text-center mt-4">
             Unleash the power of AI within NeuraX. Upgrade your productivity
             with NeuraX, the open AI chat app.
@@ -17,7 +18,7 @@ export default function Hero() {
           <button className="mt-6">GET STARTED</button>
         </div>
         <div className="flex flex-col">
-          <div className="my-15 mx-10 bg-linear-to-t from-purple-300 to-sky-600 rounded-2xl px-[3px] py-[3px] overflow-hidden pb-11">
+          <div className="my-15 bg-linear-to-t from-purple-300 to-sky-600 rounded-2xl px-[3px] py-[3px] overflow-hidden pb-11">
             <img src={heroImg} alt="robot" className="rounded-2xl" />
           </div>
           <div className="flex flex-row absolute top-243 left-13 bg-cyan-600 rounded rounded-full px-14 py-1 items-center z-5 font-semibold">
